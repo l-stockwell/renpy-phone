@@ -1,0 +1,12 @@
+﻿I'm sorry, but errors were detected in your script. Please correct the
+errors listed below, and try again.
+
+
+The label bad_ending_2 is defined twice, at File "game/script.rpy", line 651:
+label bad_ending_2:
+and File "game/script.rpy", line 678:
+label bad_ending_2:
+
+
+Ren'Py Version: Ren'Py 8.2.3.24061702
+Sun Jul 14 13:05:27 2024

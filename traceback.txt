@@ -1,0 +1,26 @@
+﻿I'm sorry, but an uncaught exception occurred.
+
+While running game code:
+  File "game/script.rpy", line 122, in script call
+    $ renpy.pause(0.000001, hard=False)
+  File "game/script.rpy", line 64, in script
+    jump expression label_to_jump
+ScriptError: could not find label 'Luci_1'.
+
+-- Full Traceback ------------------------------------------------------------
+
+Full traceback:
+  File "game/script.rpy", line 122, in script call
+    $ renpy.pause(0.000001, hard=False)
+  File "game/script.rpy", line 64, in script
+    jump expression label_to_jump
+  File "C:\Users\lenac\Documents\renpy-8.2.0-sdk\renpy\ast.py", line 1698, in execute
+    rv = renpy.game.script.lookup(target)
+  File "C:\Users\lenac\Documents\renpy-8.2.0-sdk\renpy\script.py", line 1103, in lookup
+    raise ScriptError("could not find label '%s'." % str(original))
+ScriptError: could not find label 'Luci_1'.
+
+Windows-10-10.0.22631 AMD64
+Ren'Py 8.2.0.24012702
+Renpy Phone 1.0
+Sun Oct 20 19:14:15 2024
